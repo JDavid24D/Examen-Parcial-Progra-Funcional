@@ -7,9 +7,8 @@ def metodo(datos: List[Double] = List(7.8,5.6,8.8)): Double = {
 //pregunta 2
 
 val Lista: List[Double] = List(10,8,5,8)
-def politicas(n: List(Double)): Double =
-  if(n>9)-1
-
+def politicas(n: List(Double)): Double
+val redondear: Double => Double = nota => Math.round(nota).toDouble
 
 //pregunta 3
 def saludo(nombre : String):String = "Hola como estas, " + nombre
